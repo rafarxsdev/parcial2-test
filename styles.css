@@ -1,0 +1,64 @@
+.cancelled-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(239, 68, 68, 0.1);
+    border-radius: 0.5rem;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.cancelled-badge {
+    background-color: #dc2626;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.question-card.cancelled {
+    opacity: 0.5;
+}
+
+.question-card.cancelled .question-content {
+    pointer-events: none;
+}
+
+.code-block {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+    overflow-x: auto;
+    white-space: pre;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.code-input {
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+}
+
+.points-badge {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
