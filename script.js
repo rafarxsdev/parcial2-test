@@ -500,7 +500,7 @@ function renderStudentDataScreen() {
         '<div class="p-4 bg-yellow-50 rounded-lg border-2 border-yellow-300">' +
         '<p class="font-bold mb-3 text-base text-gray-800">📋 REGLAS DEL EXAMEN:</p>' +
         '<ul class="list-none space-y-2 text-sm text-gray-700">' +
-        '<li class="flex items-start"><span class="mr-2">✓</span><span><strong>Total:</strong> 10 preguntas (160 puntos)</span></li>' +
+        '<li class="flex items-start"><span class="mr-2">✓</span><span><strong>Total:</strong> 10 preguntas (Maximo 5 puntos)</span></li>' +
         '<li class="flex items-start"><span class="mr-2">✓</span><span><strong>Duracion:</strong> 60 minutos</span></li>' +
         '<li class="flex items-start"><span class="mr-2">✓</span><span><strong>Formato:</strong> Una pregunta a la vez, orden aleatorio</span></li>' +
         '<li class="flex items-start"><span class="mr-2">⚠️</span><span><strong>Sistema anti-fraude activo:</strong> Cada pregunta tiene 3 advertencias</span></li>' +
