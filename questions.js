@@ -67,28 +67,10 @@ var examQuestions = [
     },
 
     // ==================== PREGUNTAS ABIERTAS ====================
-    /*{
-        id: 8,
-        type: 'open',
-        question: 'Implementa un metodo de test unitario en ProductServiceTest llamado updateProduct_NullPrice_ShouldThrowException() que verifique lo siguiente:\n\n1. Crear un ProductDTO con precio null\n2. Ejecutar productService.updateProduct(validProductId, productDTO)\n3. Verificar que lanza IllegalArgumentException\n4. Verificar que el mensaje de la excepcion contiene "precio"\n5. Verificar que NO se llamo al metodo productDAO.update()\n\nEscribe el codigo completo del metodo de test usando JUnit 5, Mockito y AssertJ.',
-        points: 0.74
-    },
-    {
-        id: 9,
-        type: 'open',
-        question: 'Implementa un endpoint GET en ProductController para buscar productos por rango de precio. El endpoint debe:\n\n1. Ruta: /api/v1/products/search/by-price-range\n2. Parametros: minPrice (BigDecimal) y maxPrice (BigDecimal)\n3. Retornar: List<ProductDTO> con HTTP 200\n4. Usar anotaciones de OpenAPI para documentacion basica\n5. Incluir manejo de excepciones con try-catch\n6. Llamar a: productService.getProductsByPriceRange(minPrice, maxPrice)\n\nEscribe el codigo completo del metodo del controller.',
-        points: 0.74
-    },
-    {
-        id: 10,
-        type: 'open',
-        question: 'Implementa el metodo validateProductData(ProductDTO productDTO) en ProductServiceImpl que valide TODOS los siguientes campos antes de crear o actualizar un producto:\n\nVALIDACIONES REQUERIDAS:\n1. Nombre: no null, no vacio, maximo 100 caracteres\n2. Precio: no null, mayor a cero\n3. Stock: no negativo (puede ser cero)\n4. SellerId: no null\n\nPara cada validacion que falle, lanza IllegalArgumentException con un mensaje descriptivo.\n\nEscribe el codigo completo del metodo privado.',
-        points: 0.74
-    }*/
    {
         id: 8,
         type: 'open',
-        question: '📝 PREGUNTA 8: Test Unitario con JUnit 5 y Mockito\n\n' +
+        question: 'Test Unitario con JUnit 5 y Mockito\n\n' +
                 '═════════════════════════════════════════════════════════\n\n' +
                 'OBJETIVO:\n' +
                 'Implementa un método de test unitario en ProductServiceTest llamado:\n' +
@@ -115,7 +97,7 @@ var examQuestions = [
     {
         id: 9,
         type: 'open',
-        question: '📝 PREGUNTA 9: Endpoint REST con Spring Boot\n\n' +
+        question: 'Endpoint REST con Spring Boot\n\n' +
                 '═════════════════════════════════════════════════════════\n\n' +
                 'OBJETIVO:\n' +
                 'Implementa un endpoint GET en ProductController para buscar\n' +
@@ -154,7 +136,7 @@ var examQuestions = [
     {
         id: 10,
         type: 'open',
-        question: '📝 PREGUNTA 10: Método de Validación en Service\n\n' +
+        question: 'Método de Validación en Service\n\n' +
                 '═════════════════════════════════════════════════════════\n\n' +
                 'OBJETIVO:\n' +
                 'Implementa el método validateProductData(ProductDTO productDTO)\n' +
